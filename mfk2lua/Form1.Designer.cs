@@ -125,6 +125,7 @@ namespace mfk2lua
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
+            this.openFileDialog1.Filter = "Mfk files|*.mfk|Con files|*.con";
             // 
             // button2
             // 

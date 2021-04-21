@@ -27,7 +27,13 @@ namespace mfk2lua
 
         private void button2_Click(object sender, EventArgs e)
         {
-            File.WriteAllText(openFileDialog1.FileName, textBox2.Text);
+            string filename = Path.ChangeExtension(openFileDialog1.FileName, ".lua");
+            File.WriteAllText(filename, textBox2.Text);
+
+            if (checkBox1.Checked)
+            {
+                File.Delete(openFileDialog1.FileName);
+            }
         }
     }
 }

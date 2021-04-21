@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mfk2lua", "mfk2lua\mfk2lua.csproj", "{B406BFC8-C472-49E3-9827-12A21BEC4086}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B406BFC8-C472-49E3-9827-12A21BEC4086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B406BFC8-C472-49E3-9827-12A21BEC4086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B406BFC8-C472-49E3-9827-12A21BEC4086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B406BFC8-C472-49E3-9827-12A21BEC4086}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77D49559-C3A9-4C34-A0CA-5C0D6B358DB2}
+	EndGlobalSection
+EndGlobal
